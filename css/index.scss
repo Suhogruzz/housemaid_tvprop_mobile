@@ -1,0 +1,55 @@
+@font-face {
+    font-family: 'Comfortaa', cursive;
+    src: url('./fonts/Comfortaa');
+}
+
+%font-headers {
+    font-family: 'Comfortaa', cursive;
+    font-size: 2.0rem;
+    font-weight: 500;
+    word-spacing: 0.2rem;
+}
+
+%font-text {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.3rem;
+    font-weight: 500;
+}
+
+%paragraph-spacing {
+    padding-left: 5%;
+    padding-right: 5%;
+    margin-top: 8%;
+}
+
+%elements-animation {
+    animation: from-top 1s ease 0s 1 normal forwards;
+}
+
+@keyframes from-top {
+	0% {
+		opacity: 0;
+		transform: translateY(-50px);
+	}
+
+	100% {
+		opacity: 1;
+		transform: translateY(0);
+	}
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+.hidden {
+    display: none !important;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-y: hidden;
+    scrollbar-width: 0;
+}

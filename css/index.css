@@ -1,0 +1,29 @@
+@font-face {
+  font-family: "Comfortaa", cursive;
+  src: url("./fonts/Comfortaa");
+}
+@keyframes from-top {
+  0% {
+    opacity: 0;
+    transform: translateY(-50px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+::-webkit-scrollbar {
+  display: none;
+}
+
+.hidden {
+  display: none !important;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow-y: hidden;
+  scrollbar-width: 0;
+}/*# sourceMappingURL=index.css.map */
