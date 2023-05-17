@@ -74,7 +74,6 @@
     overflow-x: hidden;
     max-width: 576px;
     width: 100vw;
-    height: 100%;
 }
 
 .header-menu-wrapper {
@@ -204,18 +203,23 @@
 }
 
 .body-main-menu {
-  scroll-snap-align: start;
+    scroll-snap-align: start;
     height: 92vh;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    p {
-      @extend %font-text;
-      margin: 5% 5%;
-    }
+}
+
+.common-container {
+  height: 70%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  p {
+    @extend %font-text;
+    margin: 5% 5%;
+  }
 }
 
 .body-main-image {
+    scroll-snap-align: start;
     margin-top: 10px;
     width: 100%;
     height: 60%;
@@ -309,22 +313,22 @@
 }
 
 .first-article {
-  height: 92vh;
+  height: 90vh;
   @extend %article-style;
 }
 
 .second-article {
-  height: 92vh;
+  height: 90vh;
   @extend %article-style;
 }
 
 .third-article {
-  height: 92vh;
+  height: 90vh;
   @extend %article-style;
   p {
     border-top: #85888C solid 2px;
     line-height: 1.5em;
-    margin: 5% auto;
+    margin: 2% auto;
     width: 95%;
   }
 }
